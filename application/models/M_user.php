@@ -67,7 +67,8 @@ class M_user extends CI_Model
 
 	public function search($key)
 	{
-		return $this->db->like('name',$key)
+		return $this->db->where('role','petugas')
+						->like('name',$key)
 						->get('user')
 						->result();
 	}

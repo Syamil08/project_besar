@@ -24,9 +24,8 @@
 		  </button>
 		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 		    <div class="navbar-nav ml-auto">
-		      <a class="nav-item nav-link active" href="<?php echo site_url('disaster/index')?>">Home<span class="sr-only">(current)</span></a>
-		      <a class="nav-item nav-link" href="#">Donasi</a>
-		      <a class="nav-item nav-link" href="#">About</a>
+		      <a class="nav-item nav-link active" href="<?php echo site_url('disaster/index')?>">Beranda<span class="sr-only">(current)</span></a>
+		      <a class="nav-item nav-link" href="<?php echo site_url('disaster/about')?>">Tentang Kami</a>
 		    </div>
 		  </div>
 		</div>
@@ -43,19 +42,13 @@
 	<?php endif ?>
 	<div id="wrapper">
 		<form class="form-signin" action="<?php echo site_url('user/verify')?>" method="post">
-	      <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+	      <h1 class="h3 mb-3 font-weight-normal">Silahkan Masuk</h1>
 	      <label for="inputUsername" class="sr-only">Username</label>
 	      <input type="text" class="form-control" name="username" placeholder="Username" required autofocus>
 	      <label for="inputPassword" class="sr-only">Password</label>
 	      <input type="password" name="password" class="form-control" placeholder="Password" required>
-	      <div class="checkbox mb-3">
-	        <label>
-	          <input type="checkbox" value="remember-me"> Remember me
-	        </label>
-	      </div>
-	      <button class="btn btn-lg btn-primary btn-block masuk">Sign in</button>
-	      <a href="<?php echo site_url('user/add')?>" class="btn btn-lg btn-success btn-block">Register</a>
-	      <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+	      <button class="btn btn-lg btn-primary btn-block masuk">Masuk</button>
+	      <a href="<?php echo site_url('user/add')?>" class="btn btn-lg btn-success btn-block">Daftar</a>
 	    </form>
 	</div>
 

@@ -24,9 +24,8 @@
 		  </button>
 		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 		    <div class="navbar-nav ml-auto">
-		      <a class="nav-item nav-link active" href="<?php echo site_url('disaster/index')?>">Home<span class="sr-only">(current)</span></a>
-		      <a class="nav-item nav-link" href="#">Donasi</a>
-		      <a class="nav-item nav-link" href="#">About</a>
+		      <a class="nav-item nav-link active" href="<?php echo site_url('disaster/index')?>">Beranda<span class="sr-only">(current)</span></a>
+		      <a class="nav-item nav-link" href="#">Tentang Kami</a>
 		      <?php if (userdata()): ?>
 				<li class="nav-item dropdown no-arrow">
 		          <a href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-roggle">
@@ -67,104 +66,41 @@
 									Syamil Bisyir
 								</h5>
 								<p class="card-text">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, ipsum!
+									Orang bijak menemukan kebijaksanaannya melalui kerasnya kehidupan.
+									<br><br>
 								</p>
-								<ul class="list-inline">
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-skype"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-google"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="card mb-4 shadow-sm">
 							<p class="paragraph">
-								<img class="rounded-circle" src="<?php echo base_url()?>assets/img/syamil.jpg" height="200px" width="200">
+								<img class="rounded-circle" src="<?php echo base_url()?>assets/img/nasution.jpeg" height="200px" width="200">
 							</p>
 							<div class="card-body">
 								<h5 class="card-text">
 									Nasution
 								</h5>
 								<p class="card-text">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, ipsum!
+									"Ketika hidup dapat memberikan manfaat, itulah arti sukses sebenarnya."
+									<br>
+									<br>
 								</p>
-								<ul class="list-inline">
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-skype"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-google"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="card mb-4 shadow-sm">
 							<p class="paragraph">
-								<img class="rounded-circle" src="<?php echo base_url()?>assets/img/syamil.jpg" height="200px" width="200">
+								<img class="rounded-circle" src="<?php echo base_url()?>assets/img/alif.jpeg" height="200px" width="200">
 							</p>
 							<div class="card-body">
 								<h5 class="card-text">
 									Muhammad Alifa Rahmatullah
 								</h5>
 								<p class="card-text">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, ipsum!
+									"Jangan pernah meremehkan seseorang,karena anda tidak tahu siapa yang lebih baik"
 								</p>
-								<ul class="list-inline">
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-skype"></i>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-google"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
 							</div>
 						</div>
 					</div>

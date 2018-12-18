@@ -28,9 +28,8 @@
 		  </button>
 		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 		    <div class="navbar-nav ml-auto">
-		      <a class="nav-item nav-link active" href="<?php echo site_url('disaster/index')?>">Home<span class="sr-only">(current)</span></a>
-		      <a class="nav-item nav-link" href="#">Donasi</a>
-		      <a class="nav-item nav-link" href="#">About</a>
+		      <a class="nav-item nav-link active" href="<?php echo site_url('disaster/index')?>">Beranda<span class="sr-only">(current)</span></a>
+		      <a class="nav-item nav-link" href="<?php echo site_url('disaster/about')?>">Tentang Kami</a>
 		    </div>
 		  </div>
 		</div>

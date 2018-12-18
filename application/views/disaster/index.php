@@ -26,8 +26,8 @@
 		  </button>
 		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 		    <div class="navbar-nav ml-auto">
-		      <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
-		      <a class="nav-item nav-link" href="<?php echo site_url('disaster/about')?>">About</a>
+		      <a class="nav-item nav-link active" href="#">Beranda<span class="sr-only">(current)</span></a>
+		      <a class="nav-item nav-link" href="<?php echo site_url('disaster/about')?>">Tentang Kami</a>
 			<?php if (userdata()): ?>
 				<li class="nav-item dropdown no-arrow">
 		          <a href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-roggle">
@@ -46,7 +46,7 @@
 		          </div>
 		        </li>
 		        <?php else: ?>
-				<a href="<?php echo site_url('user/index')?>" class="nav-item btn btn-primary tombol" href="#">Join Us</a>
+				<a href="<?php echo site_url('user/index')?>" class="nav-item btn btn-primary tombol" href="#">Bergabung</a>
 			<?php endif ?>
 		    </div>
 		  </div>
@@ -255,9 +255,8 @@
 	          <h4>Layanan</h4>
 	          <ul class="list-unstyled">
 	            <li><a href="#"></a></li>
-	            <li><a href="#">Beranda</a></li>
-	            <li><a href="#">Donasi</a></li>
-	            <li><a href="#">Tentang Kami</a></li>
+	            <li><a href="<?php echo site_url('disaster/index')?>">Beranda</a></li>
+	            <li><a href="<?php echo site_url('disaster/about')?>">Tentang Kami</a></li>
 	          </ul>
 	        </div>
 	      </div>
